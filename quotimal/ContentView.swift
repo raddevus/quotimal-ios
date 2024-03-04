@@ -10,10 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            AsyncImage(url: URL(string:"https://cdn.pixabay.com/photo/2016/11/14/04/45/elephant-1822636_1280.jpg"))
         }
         .padding()
     }
